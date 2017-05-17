@@ -1,0 +1,11 @@
+[
+  {
+    "script": "./bin/www",
+    "name": "finance",
+    "watch": ["config"],
+    "env": {
+      "PORT": "8081"
+    },
+    "args": []
+  }
+]

@@ -1,0 +1,4 @@
+wordpress/*
+!wordpress/wp-content/themes/twentyseventeen
+
+finance/node_modules

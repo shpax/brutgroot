@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="brutgroot prod">
+    <serverData>
+      <paths name="brutgroot prod">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/etc/nginx/sites-available" local="$PROJECT_DIR$/nginx" web="/" />
+            <mapping deploy="/src/brutgroot/wordpress" local="$PROJECT_DIR$/wordpress" web="/" />
+            <mapping deploy="/src/brutgroot/finance" local="$PROJECT_DIR$/finance" web="/" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/finance/node_modules" />
+            <excludedPath path="/src/brutgroot/finance/node_modules" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

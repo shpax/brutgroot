@@ -1,3 +1,5 @@
+.idea
+
 wordpress/*
 !wordpress/wp-content/themes/twentyseventeen
 
